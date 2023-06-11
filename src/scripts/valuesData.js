@@ -16,4 +16,5 @@ export let insertedValues = [
     value: 15.5,
     categoryID: 0,
   },
+  
 ];
