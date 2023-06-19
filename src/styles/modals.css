@@ -169,3 +169,105 @@
     background-color: var(--color-brand-1);
     cursor: pointer;
   }
+  @media (min-width: 701px){
+    .modal__controller{
+      width: 26.75rem;
+      height: 21.875rem;
+      padding: 1.5rem;
+      gap: 1.5625rem;
+      
+    }
+    .modal__container{
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .type__value--container{
+      display: flex;
+      flex-direction: row;
+    }
+    .input__container{
+      width: 100%;
+    }
+    .type__value--container {
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .type__buttons--container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .exit__container{
+      width: 5.0625rem;
+      height: 2rem;
+    }
+    .entry__container{
+      width: 5.0625rem;
+      height: 2rem;
+
+    }
+    .exit__container:focus{
+      padding: 0rem 0.875rem 0rem 0.875rem;
+      border: 0.0938rem solid;
+      border-color: var(--color-grey-5);
+      border-radius: var(--radius-1);
+      font-size: var(--font-size-3);
+      font-weight: var(--font-weight-1);
+      line-height: var(--font-line-height-1);
+      color: var(--color-grey-2);
+      cursor: pointer;
+      background-color: #ffffff;
+    }
+    .exit__container:active{
+      padding: 0rem 0.875rem 0rem 0.875rem;
+      border: 0.0938rem solid;
+      border-color: var(--color-grey-5);
+      border-radius: var(--radius-1);
+      font-size: var(--font-size-3);
+      font-weight: var(--font-weight-1);
+      line-height: var(--font-line-height-1);
+      color: var(--color-grey-2);
+      cursor: pointer;
+      background-color: #ffffff;
+    }
+    .entry__container:focus{
+      padding: 0rem 0.875rem 0rem 0.875rem;
+      border: 0.0938rem solid;
+      border-color: var(--color-grey-5);
+      border-radius: var(--radius-1);
+      font-size: var(--font-size-3);
+      font-weight: var(--font-weight-1);
+      line-height: var(--font-line-height-1);
+      color: var(--color-grey-2);
+      cursor: pointer;
+      background-color: #ffffff;
+    }
+    .entry__container:active{
+      padding: 0rem 0.875rem 0rem 0.875rem;
+      border: 0.0938rem solid;
+      border-color: var(--color-grey-5);
+      border-radius: var(--radius-1);
+      font-size: var(--font-size-3);
+      font-weight: var(--font-weight-1);
+      line-height: var(--font-line-height-1);
+      color: var(--color-grey-2);
+      cursor: pointer;
+      background-color: #ffffff;
+    }
+
+    .footer__modal{
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: end;
+      gap: 1rem;
+    }
+
+  }

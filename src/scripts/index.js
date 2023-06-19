@@ -86,7 +86,7 @@ function createValueList (valueType){
             let exitValue = insertedValues.filter(value => value.categoryID === 1)
             const entryValueSum = entryValue.reduce((accumulator, array) => accumulator + array.value, 0)
             const exitValueSum = exitValue.reduce((accumulator, array) => accumulator + array.value, 0)
-            const allValueSum = entryValueSum - exitValueSum
+            const allValueSum = entryValueSum + exitValueSum
             valueSumAll = allValueSum
         
         }
